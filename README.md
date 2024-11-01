@@ -1,39 +1,23 @@
-# vue-codespaces
+# Vue on Bun
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue.js学習の第一歩のための環境。
 
-## Recommended IDE Setup
+## Docs
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Vue.js](https://ja.vuejs.org/)
+- [VueUse](https://vueuse.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/docs/aspect-ratio)
+- [Vite](https://ja.vite.dev/)
+- [Bun](https://bun.sh/)
 
-## Type Support for `.vue` Imports in TS
+## Commands
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-bun install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+```bash
+# 開発サーバー起動
 bun dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-bun build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
+# コーディングルールチェック
 bun lint
 ```
